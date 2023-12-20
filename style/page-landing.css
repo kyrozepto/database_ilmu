@@ -1,0 +1,53 @@
+body {
+    background-color: #28a745; /* Green Background */
+    color: #ffffff; /* White Text */
+    font-family: 'Raleway', sans-serif; /* Raleway font */
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #ffffff; /* White Button Background */
+    color: #28a745; /* Green Button Text */
+    border-color: #ffffff; /* White Button Border */
+}
+
+.info-icon {
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    z-index: 1000;
+}

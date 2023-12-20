@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa; 
+    font-family: 'Raleway', sans-serif; 
+}
+
+.navbar {
+    background-color: #28a745; 
+    color: #ffffff; 
+}
+
+h2, h3 {
+    color: #28a745; 
+}
+
+blockquote {
+    border-left: 3px solid #28a745; 
+}
+
+.btn-outline-success {
+    color: #28a745; 
+    border-color: #28a745; 
+}
+
+.btn-outline-primary {
+    color: #007bff; 
+    border-color: #007bff; 
+}
+
+.btn-success {
+    background-color: #28a745; 
+    border-color: #28a745; 
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border-color: #dc3545; 
+}
+
+.btn-outline-primary[data-filter-active="true"] {
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+.alert-success {
+    background-color: #d4edda; 
+    border-color: #c3e6cb; 
+    color: #155724; 
+}
+
+.table {
+    background-color: #ffffff; 
+}
+
+th, td {
+    border-color: #dee2e6; 
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 215px; 
+    margin-bottom: 0px; 
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
